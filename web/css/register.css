@@ -1,0 +1,114 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 07-Nov-2025, 2:38:52 am
+    Author     : Aman
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #dbeafe, #eef2ff);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.register-container {
+  width: 100%;
+  max-width: 420px;
+  background: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0 6px 25px rgba(0, 0, 0, 0.08);
+  padding: 40px;
+  text-align: center;
+}
+
+.form-box h1 {
+  color: #1d4ed8;
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+}
+
+.form-box p {
+  color: #6b7280;
+  margin-bottom: 25px;
+  font-size: 0.95rem;
+}
+
+.input-group {
+  text-align: left;
+  margin-bottom: 18px;
+}
+
+.input-group label {
+  font-weight: 500;
+  color: #1e293b;
+  display: block;
+  margin-bottom: 6px;
+}
+
+.input-group i {
+  margin-right: 6px;
+  color: #2563eb;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 10px 12px;
+  border-radius: 8px;
+  border: 1px solid #cbd5e1;
+  font-size: 0.95rem;
+  transition: border-color 0.3s;
+}
+
+.input-group input:focus {
+  border-color: #2563eb;
+  outline: none;
+}
+
+.register-btn {
+  width: 100%;
+  background: #2563eb;
+  color: #fff;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.register-btn:hover {
+  background: #1d4ed8;
+}
+
+.login-link {
+  margin-top: 15px;
+  color: #475569;
+  font-size: 0.9rem;
+}
+
+.login-link a {
+  color: #2563eb;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.login-link a:hover {
+  text-decoration: underline;
+}
+
+.alert {
+  background: #fee2e2;
+  color: #991b1b;
+  border-radius: 8px;
+  padding: 10px;
+  font-size: 0.9rem;
+  margin-bottom: 15px;
+}
